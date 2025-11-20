@@ -1,4 +1,4 @@
-package Parciales.Parcial2025.Segundo.Veterinaria;
+package Veterinaria;
 
 class Avicolas extends Animalito implements Cuidados {
   private String tipoPlumaje;

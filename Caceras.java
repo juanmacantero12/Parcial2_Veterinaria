@@ -1,4 +1,4 @@
-package Parciales.Parcial2025.Segundo.Veterinaria;
+package Veterinaria;
 
 class Caceras extends Animalito implements Cuidados {
 

@@ -1,4 +1,4 @@
-package Parciales.Parcial2025.Segundo.Veterinaria;
+package Veterinaria;
 
 abstract class Animalito {
   protected String especie;
