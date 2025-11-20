@@ -1,4 +1,4 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
 /**
  * Excepción personalizada que se lanza cuando se intenta crear un animal

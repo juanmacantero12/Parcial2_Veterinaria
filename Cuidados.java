@@ -1,4 +1,4 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
 public interface Cuidados {
 
@@ -7,5 +7,5 @@ public interface Cuidados {
    * actual
    * 
    */
-  double calcularCostoCuidado(double costoBase);
+  double calcularCostoCuidado(double costoBase, int edadAnimal);
 }

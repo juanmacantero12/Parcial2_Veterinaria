@@ -1,6 +1,6 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
-public abstract class Animalito {
+abstract class Animalito {
   protected String especie;
   protected int edad;
   protected String nombre;
@@ -32,7 +32,7 @@ public abstract class Animalito {
 
   // Setters
   public void setEspecie(String especie) {
-    this.especie = especie.toUpperCase();
+    this.especie = especie;
   }
 
   public void setEdad(int edad) {
@@ -40,7 +40,7 @@ public abstract class Animalito {
   }
 
   public void setNombre(String nombre) {
-    this.nombre = nombre.toUpperCase();
+    this.nombre = nombre;
   }
 
   public void setPeso(double peso) {

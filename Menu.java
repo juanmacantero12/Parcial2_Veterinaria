@@ -1,4 +1,4 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
 public class Menu {
 

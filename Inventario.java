@@ -1,11 +1,11 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
 import java.util.ArrayList;
 
 public class Inventario {
 
-  private ArrayList<Animalito> inventarioTotal;
-  
+  private ArrayList<Avicolas> avicolas;
+  private ArrayList<Caceras> caceras;
 
   public Inventario() {
     this.avicolas = new ArrayList<>();

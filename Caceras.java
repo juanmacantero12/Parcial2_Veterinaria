@@ -1,6 +1,6 @@
-package Veterinaria;
+package Parciales.Parcial2025.Segundo.Veterinaria;
 
-public class Caceras extends Animalito implements Cuidados {
+class Caceras extends Animalito implements Cuidados {
 
   // Constructor con parámetros
   public Caceras(String especie, int edad, String nombre, double peso) {
@@ -9,9 +9,9 @@ public class Caceras extends Animalito implements Cuidados {
 
   // Implementación de la interface Cuidados
   @Override
-  public double calcularCostoCuidado(double costoBase) {
+  public double calcularCostoCuidado(double costoBase, int edadAnimal) {
     // Calcular incremento por años (animales cazadores envejecen más rápido)
-    double incrementoEdad = this.getEdad() * 0.08; // 8% por año para cazadores
+    double incrementoEdad = this.edad * 0.08; // 8% por año para cazadores
 
     // Los animales cazadores tienen un descuento por ser más independientes
     double descuentoCazador = 0.15; // 15% de descuento
